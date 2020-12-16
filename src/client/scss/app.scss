@@ -1,5 +1,26 @@
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+//bootstrap imported here
 
+
+//this is what makes the color blue
 .covalence-blue {
-    color: #0091ea;
+    color: white
 }
+
+.container-fluid{
+    background-image:url("https://i.pinimg.com/originals/7c/31/05/7c31052768c5ed41602ede538fb87dcb.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+.container{
+    background-color:white;
+    height: 500px;
+    width: 700px;
+    display:flex;
+    float:left;
+    box-shadow: 15px,15px,black;
+    justify-content: center;
+    align-items: center;
+}
+
